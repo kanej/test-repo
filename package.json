@@ -1,0 +1,23 @@
+{
+  "name": "test-repo",
+  "version": "1.0.0",
+  "description": "For triggering builds to test the github api.",
+  "main": "index.js",
+  "scripts": {
+    "format:check": "prettier --check ./src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanej/test-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanej/test-repo/issues"
+  },
+  "homepage": "https://github.com/kanej/test-repo#readme",
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
